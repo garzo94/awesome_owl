@@ -21,5 +21,13 @@ En este repositorio, estudiamos el capitulo 1 de los tutoriales del web framewor
 - Creamos un segundo componente llamado Card el cual recibo props como title y content en el xml mediante t-esc="props".
 - Luego importamos el compoenente en el playground en el atributo static components para utilizarlo en el xml del playground.
 
+### Commit 1.4 - t-esc y t-out
+- Se agregaron dos varbiales en el playgorund para desplegar html.
+- Dichas variables son utilizadas en el componente "Card"
+- t-esc: con una vaialbe se despliega el contgenido html utlilzando t-esc y podemos ver que usando este atributo despleiga el html como string.
+- t-out: identiifca el conteniod html y lo despliega como tal. Se usa markup para proteger el codgio de inserciones maliciosas.
+
+
+
 
 
